@@ -1,0 +1,272 @@
+{
+  "common": {
+    "language": "(zh) Language",
+    "save": "(zh) Save",
+    "cancel": "(zh) Cancel",
+    "delete": "(zh) Delete",
+    "yes": "(zh) Yes",
+    "add": "(zh) Add",
+    "continue": "(zh) Continue",
+    "error": "(zh) Error",
+    "login": "(zh) Log in",
+    "logout": "(zh) Log out",
+    "profile": "(zh) Profile",
+    "address": {
+      "street": "(zh) Street",
+      "city": "(zh) City",
+      "state": "(zh) State",
+      "zip": "(zh) Zip code"
+    },
+    "contactInfo": {
+      "firstName": "(zh) First Name",
+      "lastName": "(zh) Last Name",
+      "phone": "(zh) Phone",
+      "mobile": "(zh) Mobile Number",
+      "email": "(zh) Email"
+    },
+    "password": {
+      "password": "(zh) Password",
+      "passwordPlaceholder": "(zh) Enter your password",
+      "forgotPassword": "(zh) Forgot your password?"
+    },
+    "errors": {
+      "firstName": "(zh) First Name is required",
+      "lastName": "(zh) Last Name is required",
+      "phone": "(zh) Phone number must be between 10 and 15 digits",
+      "countryCode": "(zh) Invalid country code",
+      "email": "(zh) Invalid email address",
+      "password": "(zh) Password must be 8-16 characters long, contain a number and a letter"
+    }
+  },
+  "category": {
+    "addEditModal": {
+      "editCategory": "(zh) Edit Category",
+      "addCategory": "(zh) Add Category",
+      "categoryName": "(zh) Category Name",
+      "namePlaceholder": "(zh) Enter a category name",
+      "errors": {
+        "name": "(zh) Category name is required"
+      }
+    },
+    "deleteModal": {
+      "deleteCategory": "(zh) Delete Category?",
+      "deleteCategoryNote": "(zh) Note: This will delete all services using this category!"
+    },
+    "categoryListHorizontal": {
+      "allCategories": "(zh) All Categories"
+    }
+  },
+  "service": {
+    "addEditModal": {
+      "editService": "(zh) Edit Service",
+      "addService": "(zh) Add Service",
+      "deleteService": "(zh) Delete Service",
+      "name": "(zh) Service Name",
+      "category": "(zh) Service Category",
+      "description": "(zh) Description",
+      "duration": "(zh) Duration",
+      "price": "(zh) Price $",
+      "namePlaceholder": "(zh) Enter a service name",
+      "categoryPlaceholder": "(zh) Select a category",
+      "descriptionPlaceholder": "(zh) Enter a description (optional)",
+      "durationPlaceholder": "(zh) Select a duration",
+      "pricePlaceholder": "(zh) Enter a price",
+      "errors": {
+        "name": "(zh) Service Name is required",
+        "category": "(zh) Category is required",
+        "duration": "(zh) Duration is required",
+        "price": "(zh) Service Name is required"
+      }
+    },
+    "serviceMenuScreen": {
+      "serviceMenu": "(zh) Service Menu",
+      "viewManageMessage": "(zh) View and manage the services offered by your business",
+      "searchPlaceholder": "(zh) Search service name or type",
+      "addNewService": "(zh) Add New Service",
+      "addNewCategory": "(zh) Add New Category",
+      "editCategory": "(zh) Edit Category",
+      "deleteCategory": "(zh) Delete Category",
+      "editService": "(zh) Edit Service",
+      "deleteService": "(zh) Delete Service",
+      "allCategories": "(zh) All Categories"
+    }
+  },
+  "salon": {
+    "addEditModal": {
+      "name": "(zh) Name",
+      "addNewSalon": "(zh) Add New Salon",
+      "editSalonDetails": "(zh) Edit Salon Details",
+      "namePlaceholder": "(zh) Enter salon name",
+      "phonePlaceholder": "(zh) Enter salon phone number",
+      "emailPlaceholder": "(zh) Enter salon email",
+      "streetPlaceholder": "(zh) Enter salon street",
+      "cityPlaceholder": "(zh) Enter salon city",
+      "statePlaceholder": "(zh) Enter salon state",
+      "zipPlaceholder": "(zh) Enter salon zip code",
+      "errors": {
+        "ownerNotFound": "(zh) Owner ID not found. Data not saved!",
+        "name": "(zh) Salon name is required",
+        "street": "(zh) Street is required",
+        "city": "(zh) City is required",
+        "state": "(zh) State is required",
+        "zip": "(zh) Zip code is required",
+        "phone": "(zh) Phone number must be between 10 and 15 digits",
+        "email": "(zh) Invalid email address"
+      }
+    },
+    "mySalonsScreen": {
+      "mySalons": "(zh) My Salons",
+      "changeCurrentSalon": "(zh) Change current salon?",
+      "addSalon": "(zh) Add a salon",
+      "selected": "(zh) Selected"
+    },
+    "salonDetailsScreen": {
+      "salonDetails": "(zh) Salon Details",
+      "contact": "(zh) Contact",
+      "address": "(zh) Address",
+      "editSalonDetails": "(zh) Edit Salon Details"
+    },
+    "salonHomeScreen": {
+      "addSalon": "(zh) Add a Salon",
+      "chooseDefaultSalon": "(zh) Choose Default Salon",
+      "salonDetails": "(zh) Salon Details",
+      "serviceMenu": "(zh) Service Menu",
+      "employees": "(zh) Employees",
+      "appointments": "(zh) Appointments",
+      "clients": "(zh) Clients",
+      "errors": {
+        "loadingDetails": "(zh) Error loading salon details",
+        "noSalons": "(zh) You have not added any salons yet",
+        "noDefaultSalon": "(zh) You have not chosen a default salon yet",
+        "chooseDefaultSalon": "(zh) Choose a Default Salon"
+      }
+    }
+  },
+  "password": {
+    "changeModal": {
+      "changePassword": "(zh) Change Password",
+      "currentPassword": "(zh) Current Password",
+      "newPassword": "(zh) New Password",
+      "verifyPassword": "(zh) Verify Password",
+      "currentPasswordPlaceholder": "(zh) Enter your current password",
+      "newPasswordPlaceholder": "(zh) Enter your new password",
+      "verifyPasswordPlaceholder": "(zh) Enter your new password again",
+      "errors": {
+        "passwordMatch": "(zh) Passwords must match"
+      }
+    },
+    "checkPasswordScreen": {
+      "enterPassword": "(zh) Enter your password to log in as",
+      "welcomeBack": "(zh) Welcome back to your business account,",
+      "errors": {
+        "loginFailed": "(zh) Login Failed",
+        "checkCredentials": "(zh) Please check your credentials and try again."
+      }
+    }
+  },
+  "email": {
+    "checkEmailScreen": {
+      "emailPlaceholder": "(zh) Enter your email address",
+      "createAccount": "(zh) Create an account or log in to manage your salons",
+      "errors": {
+        "checkingEmail": "(zh) Error checking email. Please try again"
+      }
+    }
+  },
+  "owner": {
+    "editContactInfoModal": {
+      "editContactInfo": "(zh) Edit Contact Info",
+      "firstNamePlaceholder" : "(zh) Enter your first name",
+      "lastNamePlaceholder" : "(zh) Enter your last name",
+      "emailPlaceholder" : "(zh) Enter your email",
+      "mobilePlaceholder" : "(zh) Enter your phone number"
+    },
+    "profileOptionModal": {
+      "editContactInfo": "(zh) Edit Contact Info",
+      "changePassword": "(zh) Change Password"
+    }
+  },
+  "client": {
+    "clientsScreen": {
+      "clients": "(zh) Clients",
+      "searchPlaceholder": "(zh) Search client by name, email or phone",
+      "addNewClient": "(zh) Add new client",
+      "editClient": "(zh) Edit Client",
+      "deleteClient": "(zh) Delete Client"
+    },
+    "addEditClientModalView": {
+      "addNewClient": "(zh) Add New Client",
+      "editClient": "(zh) Edit Client",
+      "firstNamePlaceholder": "(zh) Enter client's first name",
+      "lastNamePlaceholder": "(zh) Enter client's last name",
+      "emailPlaceholder": "(zh) Enter client's email",
+      "phonePlaceholder": "(zh) Enter client's phone number",
+      "errors": {
+        "noSalonId": "(zh) Salon Id not found. Error adding client"
+      }
+    },
+    "selectClientModalView": {
+      "selectClient": "(zh) Select Client",
+      "searchPlaceholder": "(zh) Search client by name, email or phone",
+      "addNewClient": "(zh) Add new client",
+      "walkIn": "(zh) Walk-in"
+    }
+  },
+  "employee": {
+    "addEditEmployeesScreen": {
+      "employees": "(zh) Employees",
+      "addEmployee": "(zh) Add Employee",
+      "addNewEmployee": "(zh) Add New Employee",
+      "editEmployee": "(zh) Edit Employee",
+      "firstNamePlaceholder": "(zh) Enter employee first name",
+      "lastNamePlaceholder": "(zh) Enter employee last name",
+      "role": "(zh) Role",
+      "rolePlaceholder": "(zh) Enter role",
+      "errors": {
+        "role": "(zh) Role is required"
+      }
+    }
+  },
+  "splashScreen": {
+    "welcomeMessage": "(zh) Welcome to Your Beauty Hub Appointment system!",
+    "enhanceBeauty": "(zh) Enhancing Beauty, One Appointment at a Time",
+    "getStarted": "(zh) Get Started"
+  },
+  "registerAccountScreen": {
+    "createBusinessAccount": "(zh) Create a business account",
+    "almostThere": "(zh) You’re almost there! Create your new account for",
+    "completeDetails": "(zh) by completing these details.",
+    "iAgree": "(zh) I agree to the",
+    "privacyPolicy": "(zh) Privacy Policy and Terms of Service",
+    "createAccount": "(zh) Create Account",
+    "firstNamePlaceholder": "(zh) Enter your first name",
+    "lastNamePlaceholder": "(zh) Enter your last name",
+    "passwordPlaceholder": "(zh) Enter a password",
+    "mobileNumberPlaceholder": "(zh) Enter your mobile number",
+    "errors": {
+      "mustAgree": "(zh) You must agree to the terms",
+      "accountEmailMissing": "(zh) Account Email is missing. Please try again"
+    }
+  },
+  "settings": {
+    "settingsScreen": {
+      "profile": "(zh) Profile",
+      "salons": "(zh) Salons",
+      "accountSettings": "(zh) Account Settings",
+      "appSettings": "(zh) App Settings"
+    }
+  },
+  "language": {
+    "language": "(zh) Language",
+    "chooseLanguage": "(zh) Choose Language"
+  },
+  "theme": {
+    "theme": "(zh) Theme",
+    "selectTheme": "(zh) Select Theme",
+    "automatic": "(zh) Automatic",
+    "light": "(zh) Light",
+    "lightMode": "(zh) Light Mode",
+    "dark": "(zh) Dark",
+    "darkMode": "(zh) Dark Mode"
+  }
+}

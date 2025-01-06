@@ -1,0 +1,273 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete" : "Delete",
+    "yes": "Yes",
+    "add": "Add",
+    "continue": "Continue",
+    "error": "Error",
+    "login": "Log in",
+    "logout": "Log out",
+    "profile": "Profile",
+    "address": {
+      "street": "Street",
+      "city": "City",
+      "state": "State",
+      "zip": "Zip code"
+    },
+    "contactInfo": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone",
+      "mobile": "Mobile Number",
+      "email": "Email"
+    },
+    "password": {
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "forgotPassword": "Forgot your password?"
+    },
+    "errors": {
+      "firstName": "First Name is required",
+      "lastName": "Last Name is required",
+      "phone": "Phone number must be between 10 and 15 digits",
+      "countryCode": "Invalid country code",
+      "email": "Invalid email address",
+      "password": "Password must be 8-16 characters long, contain a number and a letter"
+    }
+  },
+  "category": {
+    "addEditModal": {
+      "editCategory": "Edit Category",
+      "addCategory": "Add Category",
+      "categoryName": "Category Name",
+      "namePlaceholder": "Enter a category name",
+      "errors": {
+        "name": "Category name is required"
+      }
+    },
+    "deleteModal": {
+      "deleteCategory": "Delete Category?",
+      "deleteCategoryNote": "Note: This will delete all services using this category!"
+    },
+    "categoryListHorizontal": {
+      "allCategories": "All Categories"
+    }
+  },
+  "service": {
+    "addEditModal": {
+      "editService": "Edit Service",
+      "addService": "Add Service",
+      "deleteService": "Delete Service",
+      "name": "Service Name",
+      "category": "Service Category",
+      "description": "Description",
+      "duration": "Duration",
+      "price": "Price $",
+      "namePlaceholder": "Enter a service name",
+      "categoryPlaceholder": "Select a category",
+      "descriptionPlaceholder": "Enter a description (optional)",
+      "durationPlaceholder": "Select a duration",
+      "pricePlaceholder": "Enter a price",
+      "errors": {
+        "name": "Service Name is required",
+        "category": "Category is required",
+        "duration": "Duration is required",
+        "price": "Service Name is required"
+      }
+    },
+    "serviceMenuScreen": {
+      "serviceMenu": "Service Menu",
+      "viewManageMessage": "View and manage the services offered by your business",
+      "searchPlaceholder": "Search service name or type",
+      "addNewService": "Add New Service",
+      "addNewCategory": "Add New Category",
+      "editCategory": "Edit Category",
+      "deleteCategory": "Delete Category",
+      "editService": "Edit Service",
+      "deleteService": "Delete Service",
+      "allCategories": "All Categories"
+    }
+  },
+  "salon": {
+    "addEditModal": {
+      "name": "Name",
+      "addNewSalon": "Add New Salon",
+      "editSalonDetails": "Edit Salon Details",
+      "namePlaceholder": "Enter salon name",
+      "phonePlaceholder": "Enter salon phone number",
+      "emailPlaceholder": "Enter salon email",
+      "streetPlaceholder": "Enter salon street",
+      "cityPlaceholder": "Enter salon city",
+      "statePlaceholder": "Enter salon state",
+      "zipPlaceholder": "Enter salon zip code",
+      "errors": {
+        "ownerNotFound": "Owner ID not found. Data not saved!",
+        "name": "Salon name is required",
+        "street": "Street is required",
+        "city": "City is required",
+        "state": "State is required",
+        "zip": "Zip code is required",
+        "phone": "Phone number must be between 10 and 15 digits",
+        "email": "Invalid email address"
+      }
+    },
+    "mySalonsScreen": {
+      "mySalons": "My Salons",
+      "changeCurrentSalon": "Change current salon?",
+      "addSalon": "Add a salon",
+      "selected": "Selected"
+    },
+    "salonDetailsScreen": {
+      "salonDetails": "Salon Details",
+      "contact": "Contact",
+      "address": "Address",
+      "editSalonDetails": "Edit Salon Details"
+    },
+    "salonHomeScreen": {
+      "addSalon": "Add a Salon",
+      "chooseDefaultSalon": "Choose Default Salon",
+      "salonDetails": "Salon Details",
+      "serviceMenu": "Service Menu",
+      "employees": "Employees",
+      "appointments": "Appointments",
+      "clients": "Clients",
+      "errors": {
+        "loadingDetails": "Error loading salon details",
+        "noSalons": "You have not added any salons yet",
+        "noDefaultSalon": "You have not chosen a default salon yet",
+        "chooseDefaultSalon": "Choose a Default Salon"
+      }
+    }
+  },
+  "password": {
+    "changeModal": {
+      "changePassword": "Change Password",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "verifyPassword": "Verify Password",
+      "currentPasswordPlaceholder": "Enter your current password",
+      "newPasswordPlaceholder": "Enter your new password",
+      "verifyPasswordPlaceholder": "Enter your new password again",
+      "errors": {
+        "passwordMatch": "Passwords must match"
+      }
+    },
+    "checkPasswordScreen": {
+      "enterPassword": "Enter your password to log in as",
+      "welcomeBack": "Welcome back to your business account,",
+      "errors": {
+        "loginFailed": "Login Failed",
+        "checkCredentials": "Please check your credentials and try again."
+      }
+    }
+  },
+  "email": {
+    "checkEmailScreen": {
+      "emailPlaceholder": "Enter your email address",
+      "createAccount": "Create an account or log in to manage your salons",
+      "errors": {
+        "checkingEmail": "Error checking email. Please try again"
+      }
+    }
+  },
+  "owner": {
+    "editContactInfoModal": {
+      "editContactInfo": "Edit Contact Info",
+      "firstNamePlaceholder" : "Enter your first name",
+      "lastNamePlaceholder" : "Enter your last name",
+      "emailPlaceholder" : "Enter your email",
+      "mobilePlaceholder" : "Enter your phone number"
+    },
+    "profileOptionModal": {
+      "editContactInfo": "Edit Contact Info",
+      "changePassword": "Change Password"
+    }
+  },
+  "client": {
+    "clientsScreen": {
+      "clients": "Clients",
+      "searchPlaceholder": "Search client by name, email or phone",
+      "addNewClient": "Add new client",
+      "editClient": "Edit Client",
+      "deleteClient": "Delete Client"
+    },
+    "addEditClientModalView": {
+      "addNewClient": "Add New Client",
+      "editClient": "Edit Client",
+      "firstNamePlaceholder": "Enter client's first name",
+      "lastNamePlaceholder": "Enter client's last name",
+      "emailPlaceholder": "Enter client's email",
+      "phonePlaceholder": "Enter client's phone number",
+      "errors": {
+        "noSalonId": "Salon Id not found. Error adding client"
+      }
+    },
+    "selectClientModalView": {
+      "selectClient": "Select Client",
+      "searchPlaceholder": "Search client by name, email or phone",
+      "addNewClient": "Add new client",
+      "walkIn": "Walk-in"
+    }
+  },
+  "employee": {
+    "addEditEmployeesScreen": {
+      "employees": "Employees",
+      "addEmployee": "Add Employee",
+      "addNewEmployee": "Add New Employee",
+      "editEmployee": "Edit Employee",
+      "firstNamePlaceholder": "Enter employee first name",
+      "lastNamePlaceholder": "Enter employee last name",
+      "role": "Role",
+      "rolePlaceholder": "Enter role",
+      "errors": {
+        "role": "Role is required"
+      }
+    }
+  },
+  "splashScreen": {
+    "welcomeMessage": "Welcome to Your Beauty Hub Appointment system!",
+    "enhanceBeauty": "Enhancing Beauty, One Appointment at a Time",
+    "getStarted": "Get Started"
+  },
+  "registerAccountScreen": {
+    "createBusinessAccount": "Create a business account",
+    "almostThere": "You’re almost there! Create your new account for",
+    "completeDetails": "by completing these details.",
+    "iAgree": "I agree to the",
+    "privacyPolicy": "Privacy Policy and Terms of Service",
+    "createAccount": "Create Account",
+    "firstNamePlaceholder": "Enter your first name",
+    "lastNamePlaceholder": "Enter your last name",
+    "passwordPlaceholder": "Enter a password",
+    "mobileNumberPlaceholder": "Enter your mobile number",
+    "errors":{
+      "mustAgree": "You must agree to the terms",
+      "accountEmailMissing": "Account Email is missing. Please try again"
+    }
+  },
+  "settings": {
+    "settingsScreen": {
+      "profile": "Profile",
+      "salons": "Salons",
+      "accountSettings": "Account Settings",
+      "appSettings": "App Settings"
+    }
+  },
+  "language": {
+    "language": "Language",
+    "chooseLanguage": "Choose Language"
+  },
+  "theme": {
+    "theme": "Theme",
+    "selectTheme": "Select Theme",
+    "automatic": "Automatic",
+    "light": "Light",
+    "lightMode": "Light Mode",
+    "dark": "Dark",
+    "darkMode": "Dark Mode"
+  }
+}
+
+

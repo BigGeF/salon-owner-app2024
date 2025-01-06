@@ -1,0 +1,272 @@
+{
+  "common": {
+    "language": "(vi) Language",
+    "save": "(vi) Save",
+    "cancel": "(vi) Cancel",
+    "delete": "(vi) Delete",
+    "yes": "(vi) Yes",
+    "add": "(vi) Add",
+    "continue": "(vi) Continue",
+    "error": "(vi) Error",
+    "login": "(vi) Log in",
+    "logout": "(vi) Log out",
+    "profile": "(vi) Profile",
+    "address": {
+      "street": "(vi) Street",
+      "city": "(vi) City",
+      "state": "(vi) State",
+      "zip": "(vi) Zip code"
+    },
+    "contactInfo": {
+      "firstName": "(vi) First Name",
+      "lastName": "(vi) Last Name",
+      "phone": "(vi) Phone",
+      "mobile": "(vi) Mobile Number",
+      "email": "(vi) Email"
+    },
+    "password": {
+      "password": "(vi) Password",
+      "passwordPlaceholder": "(vi) Enter your password",
+      "forgotPassword": "(vi) Forgot your password?"
+    },
+    "errors": {
+      "firstName": "(vi) First Name is required",
+      "lastName": "(vi) Last Name is required",
+      "phone": "(vi) Phone number must be between 10 and 15 digits",
+      "countryCode": "(vi) Invalid country code",
+      "email": "(vi) Invalid email address",
+      "password": "(vi) Password must be 8-16 characters long, contain a number and a letter"
+    }
+  },
+  "category": {
+    "addEditModal": {
+      "editCategory": "(vi) Edit Category",
+      "addCategory": "(vi) Add Category",
+      "categoryName": "(vi) Category Name",
+      "namePlaceholder": "(vi) Enter a category name",
+      "errors": {
+        "name": "(vi) Category name is required"
+      }
+    },
+    "deleteModal": {
+      "deleteCategory": "(vi) Delete Category?",
+      "deleteCategoryNote": "(vi) Note: This will delete all services using this category!"
+    },
+    "categoryListHorizontal": {
+      "allCategories": "(vi) All Categories"
+    }
+  },
+  "service": {
+    "addEditModal": {
+      "editService": "(vi) Edit Service",
+      "addService": "(vi) Add Service",
+      "deleteService": "(vi) Delete Service",
+      "name": "(vi) Service Name",
+      "category": "(vi) Service Category",
+      "description": "(vi) Description",
+      "duration": "(vi) Duration",
+      "price": "(vi) Price $",
+      "namePlaceholder": "(vi Enter a service name",
+      "categoryPlaceholder": "(vi) Select a category",
+      "descriptionPlaceholder": "(vi) Enter a description (optional)",
+      "durationPlaceholder": "(vi) Select a duration",
+      "pricePlaceholder": "(vi) Enter a price",
+      "errors": {
+        "name": "(vi) Service Name is required",
+        "category": "(vi) Category is required",
+        "duration": "(vi) Duration is required",
+        "price": "(vi) Service Name is required"
+      }
+    },
+    "serviceMenuScreen": {
+      "serviceMenu": "(vi) Service Menu",
+      "viewManageMessage": "(vi) View and manage the services offered by your business",
+      "searchPlaceholder": "(vi) Search service name or type",
+      "addNewService": "(vi) Add New Service",
+      "addNewCategory": "(vi) Add New Category",
+      "editCategory": "(vi) Edit Category",
+      "deleteCategory": "(vi) Delete Category",
+      "editService": "(vi) Edit Service",
+      "deleteService": "(vi) Delete Service",
+      "allCategories": "(vi) All Categories"
+    }
+  },
+  "salon": {
+    "addEditModal": {
+      "name": "(vi) Name",
+      "addNewSalon": "(vi) Add New Salon",
+      "editSalonDetails": "(vi) Edit Salon Details",
+      "namePlaceholder": "(vi) Enter salon name",
+      "phonePlaceholder": "(vi) Enter salon phone number",
+      "emailPlaceholder": "(vi) Enter salon email",
+      "streetPlaceholder": "(vi) Enter salon street",
+      "cityPlaceholder": "(vi) Enter salon city",
+      "statePlaceholder": "(vi) Enter salon state",
+      "zipPlaceholder": "(vi) Enter salon zip code",
+      "errors": {
+        "ownerNotFound": "(vi) Owner ID not found. Data not saved!",
+        "name": "(vi) Salon name is required",
+        "street": "(vi) Street is required",
+        "city": "(vi) City is required",
+        "state": "(vi) State is required",
+        "zip": "(vi) Zip code is required",
+        "phone": "(vi) Phone number must be between 10 and 15 digits",
+        "email": "(vi) Invalid email address"
+      }
+    },
+    "mySalonsScreen": {
+      "mySalons": "(vi) My Salons",
+      "changeCurrentSalon": "(vi) Change current salon?",
+      "addSalon": "(vi) Add a salon",
+      "selected": "(vi) Selected"
+    },
+    "salonDetailsScreen": {
+      "salonDetails": "(vi) Salon Details",
+      "contact": "(vi) Contact",
+      "address": "(vi) Address",
+      "editSalonDetails": "(vi) Edit Salon Details"
+    },
+    "salonHomeScreen": {
+      "addSalon": "(vi) Add a Salon",
+      "chooseDefaultSalon": "(vi) Choose Default Salon",
+      "salonDetails": "(vi) Salon Details",
+      "serviceMenu": "(vi) Service Menu",
+      "employees": "(vi) Employees",
+      "appointments": "(vi) Appointments",
+      "clients": "(vi) Clients",
+      "errors": {
+        "loadingDetails": "(vi) Error loading salon details",
+        "noSalons": "(vi) You have not added any salons yet",
+        "noDefaultSalon": "(vi) You have not chosen a default salon yet",
+        "chooseDefaultSalon": "(vi) Choose a Default Salon"
+      }
+    }
+  },
+  "password": {
+    "changeModal": {
+      "changePassword": "(vi) Change Password",
+      "currentPassword": "(vi) Current Password",
+      "newPassword": "(vi) New Password",
+      "verifyPassword": "(vi) Verify Password",
+      "currentPasswordPlaceholder": "(vi) Enter your current password",
+      "newPasswordPlaceholder": "(vi) Enter your new password",
+      "verifyPasswordPlaceholder": "(vi) Enter your new password again",
+      "errors": {
+        "passwordMatch": "(vi) Passwords must match"
+      }
+    },
+    "checkPasswordScreen": {
+      "enterPassword": "(vi) Enter your password to log in as",
+      "welcomeBack": "(vi) Welcome back to your business account,",
+      "errors": {
+        "loginFailed": "(vi) Login Failed",
+        "checkCredentials": "(vi) Please check your credentials and try again."
+      }
+    }
+  },
+  "email": {
+    "checkEmailScreen": {
+      "emailPlaceholder": "(vi) Enter your email address",
+      "createAccount": "(vi) Create an account or log in to manage your salons",
+      "errors": {
+        "checkingEmail": "(vi) Error checking email. Please try again"
+      }
+    }
+  },
+  "owner": {
+    "editContactInfoModal": {
+      "editContactInfo": "(vi) Edit Contact Info",
+      "firstNamePlaceholder" : "(vi) Enter your first name",
+      "lastNamePlaceholder" : "(vi) Enter your last name",
+      "emailPlaceholder" : "(vi) Enter your email",
+      "mobilePlaceholder" : "(vi) Enter your phone number"
+    },
+    "profileOptionModal": {
+      "editContactInfo": "(vi) Edit Contact Info",
+      "changePassword": "(vi) Change Password"
+    }
+  },
+  "client": {
+    "clientsScreen": {
+      "clients": "(vi) Clients",
+      "searchPlaceholder": "(vi) Search client by name, email or phone",
+      "addNewClient": "(vi) Add new client",
+      "editClient": "(vi) Edit Client",
+      "deleteClient": "(vi) Delete Client"
+    },
+    "addEditClientModalView": {
+      "addNewClient": "(vi) Add New Client",
+      "editClient": "(vi) Edit Client",
+      "firstNamePlaceholder": "(vi) Enter client's first name",
+      "lastNamePlaceholder": "(vi) Enter client's last name",
+      "emailPlaceholder": "(vi) Enter client's email",
+      "phonePlaceholder": "(vi) Enter client's phone number",
+      "errors": {
+        "noSalonId": "(vi) Salon Id not found. Error adding client"
+      }
+    },
+    "selectClientModalView": {
+      "selectClient": "(vi) Select Client",
+      "searchPlaceholder": "(vi) Search client by name, email or phone",
+      "addNewClient": "(vi) Add new client",
+      "walkIn": "(vi) Walk-in"
+    }
+  },
+  "employee": {
+    "addEditEmployeesScreen": {
+      "employees": "(vi) Employees",
+      "addEmployee": "(vi) Add Employee",
+      "addNewEmployee": "(vi) Add New Employee",
+      "editEmployee": "(vi) Edit Employee",
+      "firstNamePlaceholder": "(vi) Enter employee first name",
+      "lastNamePlaceholder": "(vi) Enter employee last name",
+      "role": "(vi) Role",
+      "rolePlaceholder": "(vi) Enter role",
+      "errors": {
+        "role": "(vi) Role is required"
+      }
+    }
+  },
+  "splashScreen": {
+    "welcomeMessage": "(vi) Welcome to Your Beauty Hub Appointment system!",
+    "enhanceBeauty": "(vi) Enhancing Beauty, One Appointment at a Time",
+    "getStarted": "(vi) Get Started"
+  },
+  "registerAccountScreen": {
+    "createBusinessAccount": "(vi) Create a business account",
+    "almostThere": "(vi) You’re almost there! Create your new account for",
+    "completeDetails": "(vi) by completing these details.",
+    "iAgree": "(vi) I agree to the",
+    "privacyPolicy": "(vi) Privacy Policy and Terms of Service",
+    "createAccount": "(vi) Create Account",
+    "firstNamePlaceholder": "(vi) Enter your first name",
+    "lastNamePlaceholder": "(vi) Enter your last name",
+    "passwordPlaceholder": "(vi) Enter a password",
+    "mobileNumberPlaceholder": "(vi) Enter your mobile number",
+    "errors": {
+      "mustAgree": "(vi) You must agree to the terms",
+      "accountEmailMissing": "(vi) Account Email is missing. Please try again"
+    }
+  },
+  "settings": {
+    "settingsScreen": {
+      "profile": "(vi) Profile",
+      "salons": "(vi) Salons",
+      "accountSettings": "(vi) Account Settings",
+      "appSettings": "(vi) App Settings"
+    }
+  },
+  "language": {
+    "language": "(vi) Language",
+    "chooseLanguage": "(vi) Choose Language"
+  },
+  "theme": {
+    "theme": "(vi) Theme",
+    "selectTheme": "(vi) Select Theme",
+    "automatic": "(vi) Automatic",
+    "light": "(vi) Light",
+    "lightMode": "(vi) Light Mode",
+    "dark": "(vi) Dark",
+    "darkMode": "(vi) Dark Mode"
+  }
+}

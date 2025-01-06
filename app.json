@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "salon-owner-app",
+    "slug": "salon-owner-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "salon-owner-app",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.greencafehnm.salonownerapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.greencafehnm.salonownerapp"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "adad3cb3-e366-4204-89bc-29dbf98e50a5"
+      }
+    },
+    "platforms": ["ios", "android", "web"],
+
+    "owner": "greencafehnm"
+  }
+}
