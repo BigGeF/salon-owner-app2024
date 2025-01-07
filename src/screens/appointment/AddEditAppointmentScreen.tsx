@@ -26,6 +26,9 @@ import TextInputFloatingLabel from "@/components/common/inputs/TextInputFloating
 import {useClientContext} from "@/context/ClientContext";
 import {useAppointmentContext} from "@/context/Appointment/AppointmentContext";
 import AddEditClientModalView from "@/components/common/modals/AddEditClientModalView";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+
 const StyledScrollView = styled(ScrollView);
 const StyledView = styled(View);
 const StyledTouchableOpacity= styled(TouchableOpacity);
@@ -227,21 +230,38 @@ const AddEditAppointmentScreen: React.FC = () => {
         setIsModalVisible(false);
     };
 
-    // Handle date change
-    const handleDateChange = (event: any, date?: Date) => {
-        setShowDatePicker(false);
+    // // Handle date change
+    // const handleDateChange = (event: any, date?: Date) => {
+    //     setShowDatePicker(false);
+    //     if (date) {
+    //         console.log(date);
+    //         setSelectedDate(date.toISOString());
+    //     }
+    // };
+
+    const handleDateChange = (date: Date | null) => {
         if (date) {
             console.log(date);
             setSelectedDate(date.toISOString());
         }
+        console.log("Selected date:", date);
     };
+    
+    // // Handle time change
+    // const handleTimeChange = (event: any, time?: Date) => {
+    //     setShowTimePicker(false);
+    //     if (time) {
+    //         const appointmentDate = new Date(selectedDate || new Date());
+    //         appointmentDate.setHours(time.getHours(), time.getMinutes());
+    //         setSelectedDate(appointmentDate.toISOString());
+    //     }
+    // };
 
-    // Handle time change
-    const handleTimeChange = (event: any, time?: Date) => {
-        setShowTimePicker(false);
+    const handleTimeChange = (time: Date | null) => {
         if (time) {
             const appointmentDate = new Date(selectedDate || new Date());
             appointmentDate.setHours(time.getHours(), time.getMinutes());
+            setSelectedDate(appointmentDate.toISOString());
             setSelectedDate(appointmentDate.toISOString());
         }
     };
@@ -505,14 +525,24 @@ const AddEditAppointmentScreen: React.FC = () => {
                         <ThemedText type='label' colorName='accent' className='align-self-start'>{t('Date of Appointment')}</ThemedText>
                         <ThemedText>{selectedDate ? `${format(new Date(selectedDate), 'MM-dd-yy')}` : ''}</ThemedText>
                     </StyledView>
-                    <StyledTouchableOpacity
+                    <DatePicker
+                        selected={selectedDate ? new Date(selectedDate) : new Date()}
+                        onChange={handleDateChange}
+                        dateFormat="MM-dd-yyyy"
+                        placeholderText="Select a date"
+                        className="date-picker-input" // Add custom styling class if needed
+                        popperClassName="higher-zindex" // Add a custom class to control z-index
+                        popperPlacement="bottom-start" // Optional: Adjust the placement if needed
+                        portalId="root-portal" // Moves the picker to the end of the body
+                    />
+                    {/* <StyledTouchableOpacity
                         onPress={() => setShowDatePicker(true)}
                         className='flex mx-auto mt-auto border-2 border-white rounded-lg py-1 px-3 justify-center'
                     >
                         <ThemedText className='p-0'>{selectedService ? 'Change Date' : 'Select a Date'}</ThemedText>
-                    </StyledTouchableOpacity>
+                    </StyledTouchableOpacity> */}
                 </StyledView>
-                {showDatePicker && (
+                {/* {showDatePicker && (
                     <DateTimePicker
                         value={
                             selectedDate ? new Date(selectedDate) : new Date()
@@ -521,7 +551,14 @@ const AddEditAppointmentScreen: React.FC = () => {
                         display="default"
                         onChange={handleDateChange}
                     />
-                )}
+                )} */}
+                {/* <DatePicker
+                    selected={selectedDate ? new Date(selectedDate) : new Date()}
+                    onChange={handleDateChange}
+                    dateFormat="MM-dd-yyyy"
+                    placeholderText="Select a date"
+                    className="date-picker-input" // Add custom styling class if needed
+                /> */}
                 <StyledView style={{borderBottomWidth: 1, borderBottomColor: 'rgba(155,155,155,0.55)'}}></StyledView>
 
                 <StyledView className='flex-row mt-2 mb-4'>
@@ -529,14 +566,28 @@ const AddEditAppointmentScreen: React.FC = () => {
                         <ThemedText type='label' colorName='accent' className='align-self-start'>{t('Time of Appointment')}</ThemedText>
                         <ThemedText>{selectedDate ? `${formatTime(selectedDate)}` : ''}</ThemedText>
                     </StyledView>
-                    <StyledTouchableOpacity
+                    {/* <StyledTouchableOpacity
                         onPress={() => setShowTimePicker(true)}
                         className='flex mx-auto mt-auto border-2 border-white rounded-lg py-1 px-3 justify-center'
                     >
                         <ThemedText className='p-0'>{selectedService ? 'Change Time' : 'Select a Time'}</ThemedText>
-                    </StyledTouchableOpacity>
+                    </StyledTouchableOpacity> */}
+                    <DatePicker
+                        selected={selectedDate ? new Date(selectedDate) : new Date()}
+                        onChange={handleTimeChange}
+                        showTimeSelect
+                        showTimeSelectOnly
+                        timeIntervals={15} // Interval between times (15 minutes)
+                        timeCaption="Time"
+                        dateFormat="h:mm aa" // 12-hour format with AM/PM
+                        placeholderText="Select a time"
+                        className="time-picker-input"
+                        popperClassName="higher-zindex" // Add a custom class to control z-index
+                        popperPlacement="bottom-start" // Optional: Adjust the placement if needed
+                        portalId="root-portal" // Moves the picker to the end of the body
+                    />
                 </StyledView>
-                {showTimePicker && (
+                {/* {showTimePicker && (
                     <DateTimePicker
                         value={
                             selectedDate ? new Date(selectedDate) : new Date()
@@ -545,7 +596,7 @@ const AddEditAppointmentScreen: React.FC = () => {
                         display="default"
                         onChange={handleTimeChange}
                     />
-                )}
+                )} */}
                 <StyledView style={{borderBottomWidth: 1, borderBottomColor: 'rgba(155,155,155,0.55)'}}></StyledView>
 
                 <StyledView className='flex-row mt-2 mb-4'>

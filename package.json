@@ -38,6 +38,7 @@
     "openai": "^4.73.0",
     "react": "18.2.0",
     "react-big-calendar": "^1.14.0",
+    "react-datepicker": "^7.6.0",
     "react-dom": "18.2.0",
     "react-i18next": "^15.0.1",
     "react-intl-universal": "^2.11.1",
